@@ -1,0 +1,24 @@
+#!/bin/bash
+# script updates the system of my computer.
+
+sudo apt update
+
+echo 'Hello richard, I,m done.'
+
+#takes value from the user
+read -p 'your say?' x
+
+echo "$x," \n  
+
+echo 'You are welcome.'
+
+# adds the name of the user to the script file
+
+
+read -p 'what is your name please?' name 
+
+echo "$name" >> script
+
+echo "Goodbye $name"  
+
+sudo apt update 

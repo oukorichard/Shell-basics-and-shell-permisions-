@@ -1,0 +1,5 @@
+#!/bin/bash
+echo what is your name
+# this takes an input from the user
+read -p "what is your name?" x
+echo "$x"
